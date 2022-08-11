@@ -218,3 +218,4 @@ schedule.every(1).day.at("6:30").do(repeat_pars)
 while ParsLink.marker != False:
     schedule.run_pending()
     time.sleep(1)
+    print('Contacts download completed')
