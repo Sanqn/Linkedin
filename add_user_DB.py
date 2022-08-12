@@ -55,7 +55,7 @@ class UserDB:
                     connection.commit()
                     user = True
                 else:
-                    print(f'This user exists already = ', contacts_user['first_name'])
+                    print(f'This user already exists = ', contacts_user['first_name'])
                     user = False
             except Exception as e:
                 print('User not added in db, error = ', e, '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
